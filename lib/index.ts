@@ -4,6 +4,4 @@ const to = <T>(promise: Promise<T>): Promise<[Error | null, T | null]> => {
         .catch(err => [err, null] as [Error, null]);
 }
 
-
-
 export { to };
