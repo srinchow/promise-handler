@@ -1,9 +1,10 @@
 {
   "name": "promise-handler-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package to handle promises more efficently",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/srinchow/promise-handler.git",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
