@@ -1,10 +1,13 @@
 {
   "name": "promise-handler-to",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple package to handle promises more efficently",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/srinchow/promise-handler.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srinchow/promise-handler.git"
+  },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
@@ -12,7 +15,10 @@
     "build": "tsc",
     "prepublish": "tsc"
   },
-  "author": "Srinjoy Choudhury",
+  "author": {
+    "name": "Srinjoy Choudhury",
+    "email": "srinjoychow@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.7.16",
