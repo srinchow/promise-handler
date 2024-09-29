@@ -1,5 +1,5 @@
 {
-  "name": "to",
+  "name": "promise-handler-to",
   "version": "1.0.0",
   "description": "A simple package to handle promises more efficently",
   "main": "dist/index.js",
